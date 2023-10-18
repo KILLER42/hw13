@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inline Block Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <header class="header">
+	<div class="container">
+		<ul class="header-menu">
+			<li class="btn">
+			<a href="index.html">
+				<svg class="header-icon">
+					<use href="image/sprite.svg#home"></use>
+				</svg>
+				Главная</a>
+			</li>
+			<li class="btn">
+				<a href="gallery.html">
+					<svg class="header-icon">
+						<use href="image/sprite.svg#gallery"></use>
+					</svg>
+					Галерея</a>
+			</li>
+			<li class="parent-second-menu btn">
+				<a href="#">Домашки
+					<svg class="header-icon">
+						<use href="image/sprite.svg#arrow-down"></use>
+					</svg>
+				</a>
+				<ul class="second-menu">
+					<li><a href="inline-block.html">Inline-Block</a></li>
+					<li><a href="float.html">Float</a></li>
+					<li class="parent-relative btn">
+						<a href="#">
+						<svg class="header-icon">
+							<use href="image/sprite.svg#left-arrow"></use>
+						</svg><span>Flex</span></a>
+						<ul class="third-menu">
+							<li>
+								<a href="flex.html">Flex</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+  <body class="inline-block-vertical">
+  <div class="wrapper-inline">
+    <div class="bg-pink fs0">
+      <div class="w400 h400 outline fs18 dib">One</div>
+      <div class="w400 h400 outline fs18 dib">Two</div>
+      <div class="w400 h400 outline fs18 dib">Three</div>
+    </div>
+    <div class="bg-blue fs0">
+    <div class="w800 fs18 dib">
+      <div class="h200 outline">Four</div>
+      <div class="h200 outline">Five</div>
+    </div>
+    <div class="w400 fs18 dib">
+      <div class="h133 outline">Six</div>
+      <div class="h133 outline">Seven</div>
+      <div class="h133 outline">Eight</div>
+    </div>
+    </div>
+    <div class="bg-orange fs0">
+      <div class="w400 h400 dib fs18 outline">Nine</div>
+      <div class="dib fs18">
+        <div class="w800 h200 outline">Ten</div>
+        <div class="w800 dib fs0">
+          <div class="w400 h200 outline dib fs18">Eleven</div>
+          <div class="w400 fs18 dib">
+            <div class="w400 h100 outline dib">Twelwe</div>
+            <div class="h100 outline">Thirteen</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  </body>
+</html>
